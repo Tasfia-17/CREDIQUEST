@@ -469,48 +469,13 @@ git push origin feature/your-feature
 
 ---
 
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
 
 ---
 
-## Acknowledgments
-
 <div align="center">
-<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/thanks.svg" alt="Acknowledgments" width="800"/>
-</div>
-
-**Built With Inspiration From:**
-
-- **Xitique Onchain**: ROSCA contract patterns and mechanics
-- **Loot Survivor**: Sustainable tournament economics model
-- **Guild.xyz**: Membership and reputation systems
-- **Creditcoin**: EVM infrastructure and credit mission alignment
-- **OpenZeppelin**: Security-audited smart contract libraries
-
----
-
-## Contact
-
-<div align="center">
-
-**Team CrediQuest**
-
-[GitHub](https://github.com/Tasfia-17/CREDIQUEST) •
-[Twitter](https://twitter.com/crediquest) •
-[Discord](https://discord.gg/crediquest) •
-[Email](mailto:team@crediquest.io)
 
 **Built for BUIDL CTC Hackathon 2026**
 
-<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/logo-small.svg" alt="CrediQuest" width="200"/>
+Made with care for financial inclusion
 
-</div>
-
----
-
-<div align="center">
-  <p>Made with care for financial inclusion</p>
-  <p>Copyright 2026 CrediQuest Team</p>
 </div>
