@@ -1,0 +1,26 @@
+{
+  "name": "crediquest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ROSCA Gaming Protocol - Play. Save. Build Credit.",
+  "scripts": {
+    "dev": "pnpm --parallel -r dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean",
+    "prepare": "husky install"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^1.5.3",
+    "husky": "^9.0.10",
+    "turbo": "^1.12.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

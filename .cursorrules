@@ -1,0 +1,27 @@
+# CrediQuest Development Rules
+
+## TypeScript
+- Use explicit types over 'any'
+- Prefer composition over inheritance
+- Use const assertions for literal types
+
+## Solidity
+- All state-changing functions need ReentrancyGuard
+- Use OpenZeppelin contracts as base
+- Follow CEI pattern (Checks-Effects-Interactions)
+- No floating pragmas - use solidity ^0.8.20
+- Prefer inline assembly only for gas optimization (document why)
+- Use state machine pattern for lifecycle management
+- Emit events for all state changes
+- Test with multi-member scenarios (12+ members)
+
+## Frontend
+- All UI components must work without wallet connection (read-only mode)
+- Game canvas must handle resize events
+- Use Zustand for state management
+- Mobile-first responsive design
+
+## Testing
+- Foundry for contract testing
+- Hardhat for deployment
+- Fuzz tests for financial logic
