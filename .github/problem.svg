@@ -1,60 +1,84 @@
-<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="350" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350">
   <defs>
-    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:0.2" />
-      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:0.05" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF5E6"/>
+      <stop offset="100%" style="stop-color:#FFE4CC"/>
     </linearGradient>
   </defs>
   
-  <!-- Background -->
-  <rect width="800" height="300" fill="url(#problemGrad)"/>
+  <rect width="900" height="350" fill="url(#bg)"/>
   
-  <!-- Problem 1: Unbanked Population -->
-  <g transform="translate(80, 60)">
-    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
-    <path d="M 40 20 Q 30 20 30 30 L 30 50 Q 30 60 40 60 Q 50 60 50 50 L 50 30 Q 50 20 40 20 Z" fill="#FF6B00"/>
-    <circle cx="40" cy="15" r="8" fill="#FF6B00"/>
-    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">1.4B Unbanked</text>
-    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">No access to</text>
-    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">financial services</text>
+  <!-- Sad Character 1: No Bank Access -->
+  <g transform="translate(120, 150)">
+    <!-- Character body -->
+    <ellipse cx="0" cy="20" rx="40" ry="50" fill="#87CEEB"/>
+    <!-- Head -->
+    <circle cx="0" cy="-20" r="35" fill="#FFD4A3"/>
+    <!-- Sad eyes -->
+    <circle cx="-12" cy="-25" r="4" fill="black"/>
+    <circle cx="12" cy="-25" r="4" fill="black"/>
+    <path d="M -15 -10 Q 0 -15 15 -10" stroke="black" stroke-width="2" fill="none"/>
+    <!-- Arms reaching out -->
+    <path d="M -40 10 Q -60 0 -70 10" stroke="#FFD4A3" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 40 10 Q 60 0 70 10" stroke="#FFD4A3" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Bank with X -->
+    <rect x="-15" y="-80" width="30" height="25" fill="#8B4513"/>
+    <rect x="-20" y="-55" width="40" height="30" fill="#D2691E"/>
+    <line x1="-15" y1="-70" x2="15" y2="-60" stroke="red" stroke-width="3"/>
+    <line x1="15" y1="-70" x2="-15" y2="-60" stroke="red" stroke-width="3"/>
+    <text x="0" y="90" text-anchor="middle" font-size="14" font-weight="bold">1.4B Unbanked</text>
   </g>
   
-  <!-- Problem 2: Trust Issues -->
-  <g transform="translate(280, 60)">
-    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
-    <rect x="25" y="30" width="30" height="25" rx="2" fill="none" stroke="#FF6B00" stroke-width="3"/>
-    <circle cx="40" cy="42" r="6" fill="none" stroke="#FF6B00" stroke-width="2"/>
-    <rect x="38" y="42" width="4" height="8" fill="#FF6B00"/>
-    <line x1="30" y1="25" x2="50" y2="25" stroke="#FF6B00" stroke-width="2"/>
-    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">No Trust</text>
-    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">Informal savings</text>
-    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">lack transparency</text>
+  <!-- Worried Character 2: Trust Issues -->
+  <g transform="translate(320, 150)">
+    <!-- Character -->
+    <ellipse cx="0" cy="20" rx="40" ry="50" fill="#98D8C8"/>
+    <circle cx="0" cy="-20" r="35" fill="#FFE4B5"/>
+    <!-- Worried eyes -->
+    <circle cx="-12" cy="-25" r="5" fill="white"/>
+    <circle cx="-12" cy="-25" r="3" fill="black"/>
+    <circle cx="12" cy="-25" r="5" fill="white"/>
+    <circle cx="12" cy="-25" r="3" fill="black"/>
+    <path d="M -15 -8 Q 0 -12 15 -8" stroke="black" stroke-width="2" fill="none"/>
+    <!-- Broken lock -->
+    <rect x="-12" y="-75" width="24" height="20" fill="#FFD700" opacity="0.5"/>
+    <circle cx="0" cy="-85" r="12" fill="none" stroke="#FFD700" stroke-width="3"/>
+    <line x1="-8" y1="-85" x2="8" y2="-85" stroke="red" stroke-width="3"/>
+    <text x="0" y="90" text-anchor="middle" font-size="14" font-weight="bold">No Trust</text>
   </g>
   
-  <!-- Problem 3: No Credit History -->
-  <g transform="translate(480, 60)">
-    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
-    <rect x="20" y="25" width="40" height="30" rx="3" fill="none" stroke="#FF6B00" stroke-width="3"/>
-    <line x1="28" y1="35" x2="52" y2="35" stroke="#FF6B00" stroke-width="2"/>
-    <line x1="28" y1="42" x2="45" y2="42" stroke="#FF6B00" stroke-width="2"/>
-    <line x1="28" y1="49" x2="48" y2="49" stroke="#FF6B00" stroke-width="2"/>
-    <line x1="35" y1="20" x2="45" y2="30" stroke="#FF6B00" stroke-width="3"/>
-    <line x1="45" y1="20" x2="35" y2="30" stroke="#FF6B00" stroke-width="3"/>
-    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">No Credit Score</text>
-    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">Cannot access</text>
-    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">DeFi opportunities</text>
+  <!-- Confused Character 3: No Credit -->
+  <g transform="translate(520, 150)">
+    <!-- Character -->
+    <ellipse cx="0" cy="20" rx="40" ry="50" fill="#DDA0DD"/>
+    <circle cx="0" cy="-20" r="35" fill="#FFDAB9"/>
+    <!-- Confused eyes -->
+    <circle cx="-12" cy="-25" r="4" fill="black"/>
+    <circle cx="12" cy="-25" r="4" fill="black"/>
+    <text x="0" y="-10" text-anchor="middle" font-size="20">?</text>
+    <!-- Empty document -->
+    <rect x="-15" y="-80" width="30" height="35" fill="white" stroke="#666" stroke-width="2"/>
+    <line x1="-10" y1="-70" x2="10" y2="-70" stroke="#CCC" stroke-width="2"/>
+    <line x1="-10" y1="-60" x2="10" y2="-60" stroke="#CCC" stroke-width="2"/>
+    <line x1="-10" y1="-50" x2="5" y2="-50" stroke="#CCC" stroke-width="2"/>
+    <text x="0" y="90" text-anchor="middle" font-size="14" font-weight="bold">No Credit History</text>
   </g>
   
-  <!-- Problem 4: Market Size -->
-  <g transform="translate(680, 60)">
-    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
-    <text x="40" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#FF6B00">$10B</text>
-    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Annual Volume</text>
-    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">In informal</text>
-    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">ROSCA markets</text>
+  <!-- Money Bag Character 4: Market Size -->
+  <g transform="translate(720, 150)">
+    <!-- Money bag -->
+    <ellipse cx="0" cy="20" rx="45" ry="55" fill="#2E8B57"/>
+    <rect x="-20" y="-30" width="40" height="20" fill="#228B22"/>
+    <text x="0" y="30" text-anchor="middle" font-size="32" font-weight="bold" fill="#FFD700">$</text>
+    <!-- Sparkles around bag -->
+    <circle cx="-40" cy="-10" r="3" fill="#FFD700"/>
+    <circle cx="40" cy="0" r="3" fill="#FFD700"/>
+    <circle cx="-35" cy="40" r="3" fill="#FFD700"/>
+    <circle cx="35" cy="50" r="3" fill="#FFD700"/>
+    <text x="0" y="90" text-anchor="middle" font-size="14" font-weight="bold">$10B Market</text>
   </g>
   
-  <!-- Bottom text -->
-  <text x="400" y="220" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Traditional ROSCAs: Cash under mattresses, no transparency, no credit building</text>
-  <text x="400" y="245" text-anchor="middle" font-size="14" fill="#666">Billions of people excluded from the financial system</text>
+  <!-- Title -->
+  <text x="450" y="300" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Traditional ROSCAs: Broken Trust, No Transparency, No Credit Building</text>
+  <text x="450" y="330" text-anchor="middle" font-size="16" fill="#666">Billions excluded from financial services</text>
 </svg>
