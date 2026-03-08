@@ -1,0 +1,39 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#FFFAF0"/>
+  
+  <!-- Blockchain Stack -->
+  <g transform="translate(150, 150)">
+    <rect x="-80" y="-100" width="160" height="200" rx="10" fill="#FF6B00"/>
+    <text y="-70" text-anchor="middle" font-size="16" font-weight="bold" fill="white">Blockchain</text>
+    <rect x="-60" y="-40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="-18" text-anchor="middle" font-size="11" fill="#333">Solidity ^0.8.20</text>
+    <rect x="-60" y="0" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="22" text-anchor="middle" font-size="11" fill="#333">Hardhat + Foundry</text>
+    <rect x="-60" y="40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="62" text-anchor="middle" font-size="11" fill="#333">OpenZeppelin</text>
+  </g>
+  
+  <!-- Frontend Stack -->
+  <g transform="translate(400, 150)">
+    <rect x="-80" y="-100" width="160" height="200" rx="10" fill="#4169E1"/>
+    <text y="-70" text-anchor="middle" font-size="16" font-weight="bold" fill="white">Frontend</text>
+    <rect x="-60" y="-40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="-18" text-anchor="middle" font-size="11" fill="#333">Next.js 14</text>
+    <rect x="-60" y="0" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="22" text-anchor="middle" font-size="11" fill="#333">TypeScript</text>
+    <rect x="-60" y="40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="62" text-anchor="middle" font-size="11" fill="#333">wagmi + viem</text>
+  </g>
+  
+  <!-- Gaming Stack -->
+  <g transform="translate(650, 150)">
+    <rect x="-80" y="-100" width="160" height="200" rx="10" fill="#32CD32"/>
+    <text y="-70" text-anchor="middle" font-size="16" font-weight="bold" fill="white">Gaming</text>
+    <rect x="-60" y="-40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="-18" text-anchor="middle" font-size="11" fill="#333">Phaser 3</text>
+    <rect x="-60" y="0" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="22" text-anchor="middle" font-size="11" fill="#333">Canvas API</text>
+    <rect x="-60" y="40" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+    <text y="62" text-anchor="middle" font-size="11" fill="#333">Howler.js</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#F0F8FF"/>
+  
+  <!-- Layer 1: Frontend -->
+  <rect x="50" y="50" width="700" height="80" rx="10" fill="#FF6B00" opacity="0.8"/>
+  <text x="400" y="95" text-anchor="middle" font-size="18" font-weight="bold" fill="white">Frontend Layer</text>
+  <text x="200" y="115" text-anchor="middle" font-size="12" fill="white">Next.js 14</text>
+  <text x="400" y="115" text-anchor="middle" font-size="12" fill="white">Phaser 3</text>
+  <text x="600" y="115" text-anchor="middle" font-size="12" fill="white">wagmi/viem</text>
+  
+  <!-- Arrow -->
+  <path d="M 400 130 L 400 160" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Layer 2: Smart Contracts -->
+  <rect x="50" y="170" width="700" height="80" rx="10" fill="#4169E1" opacity="0.8"/>
+  <text x="400" y="215" text-anchor="middle" font-size="18" font-weight="bold" fill="white">Smart Contract Layer</text>
+  <text x="200" y="235" text-anchor="middle" font-size="12" fill="white">RoscaCore</text>
+  <text x="400" y="235" text-anchor="middle" font-size="12" fill="white">CrediScore</text>
+  <text x="600" y="235" text-anchor="middle" font-size="12" fill="white">TournamentArena</text>
+  
+  <!-- Arrow -->
+  <path d="M 400 250 L 400 280" stroke="#666" stroke-width="3" marker-end="url(#arrow)"/>
+  
+  <!-- Layer 3: Blockchain -->
+  <rect x="50" y="290" width="700" height="80" rx="10" fill="#32CD32" opacity="0.8"/>
+  <text x="400" y="335" text-anchor="middle" font-size="18" font-weight="bold" fill="white">Creditcoin EVM (Chain ID: 1029)</text>
+  <text x="400" y="355" text-anchor="middle" font-size="12" fill="white">Blockchain Layer</text>
+</svg>

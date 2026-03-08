@@ -65,7 +65,7 @@ Every contribution and tournament victory builds on-chain reputation verifiable 
 ## Features
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/features.svg" alt="Key Features" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/features.svg" alt="Key Features" width="900"/>
 </div>
 
 ### ROSCA Savings Circles
@@ -103,7 +103,7 @@ Build reputation that matters:
 ## Architecture
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/architecture.svg" alt="System Architecture" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/architecture.svg" alt="System Architecture" width="900"/>
 </div>
 
 ### Three-Layer Architecture
@@ -131,7 +131,7 @@ Build reputation that matters:
 ## How It Works
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/flow.svg" alt="User Journey" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/flow.svg" alt="User Journey" width="900"/>
 </div>
 
 ### The CrediQuest Cycle
@@ -175,7 +175,7 @@ Build reputation that matters:
 ## Smart Contracts
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/contracts.svg" alt="Smart Contracts" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/contracts.svg" alt="Smart Contracts" width="900"/>
 </div>
 
 ### Contract Details
@@ -207,7 +207,7 @@ Build reputation that matters:
 ## Technology Stack
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/tech-stack.svg" alt="Technology Stack" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/tech-stack.svg" alt="Technology Stack" width="900"/>
 </div>
 
 ### Stack Breakdown
@@ -348,7 +348,7 @@ crediquest/
 ## Deployment
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/deployment.svg" alt="Deployment Pipeline" width="800"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/deployment.svg" alt="Deployment Pipeline" width="800"/>
 </div>
 
 ### Deployed Contracts (Testnet)
@@ -370,7 +370,7 @@ crediquest/
 ## Demo
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/demo.svg" alt="Demo Resources" width="800"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/demo.svg" alt="Demo Resources" width="800"/>
 </div>
 
 ### Resources
@@ -395,7 +395,7 @@ crediquest/
 ## Roadmap
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/roadmap.svg" alt="Development Roadmap" width="900"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/roadmap.svg" alt="Development Roadmap" width="900"/>
 </div>
 
 ### Development Phases
@@ -478,7 +478,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Acknowledgments
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/thanks.svg" alt="Acknowledgments" width="800"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/thanks.svg" alt="Acknowledgments" width="800"/>
 </div>
 
 **Built With Inspiration From:**
@@ -504,7 +504,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 **Built for BUIDL CTC Hackathon 2026**
 
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/logo-small.svg" alt="CrediQuest" width="200"/>
+<img src="https://github.com/Tasfia-17/CREDIQUEST/blob/main/.github/logo-small.svg" alt="CrediQuest" width="200"/>
 
 </div>
 
