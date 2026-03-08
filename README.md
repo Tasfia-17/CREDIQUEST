@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/logo.svg" alt="CrediQuest Logo" width="400"/>
+![CrediQuest Logo](.github/logo.svg)
 
 <h1>CrediQuest</h1>
 <h3>Play. Save. Build Credit.</h3>
@@ -27,9 +27,7 @@
 
 ## Problem
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/problem.svg" alt="Problem Statement" width="800"/>
-</div>
+![Problem Statement](.github/problem.svg)
 
 **1.4 Billion People Are Unbanked**
 
@@ -45,9 +43,7 @@ Traditional Rotating Savings and Credit Associations (ROSCAs) handle over $10 bi
 
 ## Solution
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Tasfia-17/CREDIQUEST/main/.github/solution.svg" alt="Solution Overview" width="800"/>
-</div>
+![Solution Overview](.github/solution.svg)
 
 **CrediQuest** revolutionizes ROSCAs by bringing them on-chain with three core innovations:
 
