@@ -1,0 +1,19 @@
+{
+  "name": "@crediquest/contracts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "forge build && hardhat compile",
+    "test": "forge test -vvv",
+    "test:gas": "forge test --gas-report",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network creditcoin_testnet",
+    "verify": "hardhat verify --network creditcoin_testnet",
+    "clean": "forge clean && hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@openzeppelin/contracts": "^5.0.1",
+    "@openzeppelin/contracts-upgradeable": "^5.0.1",
+    "hardhat": "^2.19.5",
+    "dotenv": "^16.4.1"
+  }
+}
