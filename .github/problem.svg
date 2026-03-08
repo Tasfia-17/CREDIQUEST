@@ -1,0 +1,60 @@
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="problemGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B00;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#FF6B00;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="url(#problemGrad)"/>
+  
+  <!-- Problem 1: Unbanked Population -->
+  <g transform="translate(80, 60)">
+    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
+    <path d="M 40 20 Q 30 20 30 30 L 30 50 Q 30 60 40 60 Q 50 60 50 50 L 50 30 Q 50 20 40 20 Z" fill="#FF6B00"/>
+    <circle cx="40" cy="15" r="8" fill="#FF6B00"/>
+    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">1.4B Unbanked</text>
+    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">No access to</text>
+    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">financial services</text>
+  </g>
+  
+  <!-- Problem 2: Trust Issues -->
+  <g transform="translate(280, 60)">
+    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
+    <rect x="25" y="30" width="30" height="25" rx="2" fill="none" stroke="#FF6B00" stroke-width="3"/>
+    <circle cx="40" cy="42" r="6" fill="none" stroke="#FF6B00" stroke-width="2"/>
+    <rect x="38" y="42" width="4" height="8" fill="#FF6B00"/>
+    <line x1="30" y1="25" x2="50" y2="25" stroke="#FF6B00" stroke-width="2"/>
+    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">No Trust</text>
+    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">Informal savings</text>
+    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">lack transparency</text>
+  </g>
+  
+  <!-- Problem 3: No Credit History -->
+  <g transform="translate(480, 60)">
+    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
+    <rect x="20" y="25" width="40" height="30" rx="3" fill="none" stroke="#FF6B00" stroke-width="3"/>
+    <line x1="28" y1="35" x2="52" y2="35" stroke="#FF6B00" stroke-width="2"/>
+    <line x1="28" y1="42" x2="45" y2="42" stroke="#FF6B00" stroke-width="2"/>
+    <line x1="28" y1="49" x2="48" y2="49" stroke="#FF6B00" stroke-width="2"/>
+    <line x1="35" y1="20" x2="45" y2="30" stroke="#FF6B00" stroke-width="3"/>
+    <line x1="45" y1="20" x2="35" y2="30" stroke="#FF6B00" stroke-width="3"/>
+    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">No Credit Score</text>
+    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">Cannot access</text>
+    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">DeFi opportunities</text>
+  </g>
+  
+  <!-- Problem 4: Market Size -->
+  <g transform="translate(680, 60)">
+    <circle cx="40" cy="40" r="35" fill="#FF6B00" opacity="0.2"/>
+    <text x="40" y="50" text-anchor="middle" font-size="28" font-weight="bold" fill="#FF6B00">$10B</text>
+    <text x="40" y="100" text-anchor="middle" font-size="14" font-weight="bold" fill="#333">Annual Volume</text>
+    <text x="40" y="120" text-anchor="middle" font-size="11" fill="#666">In informal</text>
+    <text x="40" y="135" text-anchor="middle" font-size="11" fill="#666">ROSCA markets</text>
+  </g>
+  
+  <!-- Bottom text -->
+  <text x="400" y="220" text-anchor="middle" font-size="16" font-weight="bold" fill="#333">Traditional ROSCAs: Cash under mattresses, no transparency, no credit building</text>
+  <text x="400" y="245" text-anchor="middle" font-size="14" fill="#666">Billions of people excluded from the financial system</text>
+</svg>
